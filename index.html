@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ua">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Cosmetic</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- FontAwesome -->
+    <script src="https://kit.fontawesome.com/1694914d74.js" crossorigin="anonymous"></script>
+
+    <!-- External CSS StyleSheet -->
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header>
+        <!-- NavBar Added -->
+        <nav class="navbar navbar-expand-lg py-4">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo1.png" width="200px" height="100px" alt="logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Головна</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Продукція</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Про нас</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Контакти</a>
+                        </li>
+                    </ul>
+                    <div class="input-group w-25">
+                        <input type="text" class="form-control" placeholder="Я шукаю" aria-label="search" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                            <i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Carousel Added -->
+        <div class="container mt-3 mb-5">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner rounded-3">
+                    <div class="carousel-item active">
+                        <div class="row panda-bg-info p-5 d-flex align-items-center">
+                            <div class="col-lg-7 ps-5">
+                                <h1 class="fw-bold mb-3">SKIN1004 - Гіалуроновый тоник с центеллой </h1>
+                                <p class="mb-4">Гіалуроновий тонік із центеллою - зволожуючий тонік для догляду за шкірою обличчя. Він відновлює та повертає шкірі здорове сяйво. Містить ніацинамід, який вирівнює колір шкіри та зменшує почервоніння, та гідролат центели азіатської 74%. 3 молекулярні форми гіалуронової кислоти покращують еластичність шкіри. Більше того, вся формула засобу створена із сировини природного походження.</p>
+                                <h1 class="price fw-semibold">840.00 грн</h1>
+                                <button type="button" class="btn-buy-now">Купити зараз<i class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="images/baner/toner2-removebg-preview.png"  class="d-block w-100 mt-4 mt-md-0" alt="Тонік для обличчя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row panda-bg-info p-5 d-flex align-items-center">
+                            <div class="col-lg-7 ps-5">
+                                <h1 class="fw-bold mb-3">SKIN1004 - Зволожуючий сонцезахисний крем для обличчя</h1>
+                                <p class="mb-4">SKIN1004 - Madagascar Centella Hyalu-Cica SPF50+ PA++++ - це легкий сонцезахисний крем, розроблений для щоденного використання. Містить хімічні фільтри для захисту від ультрафіолетових променів і не залишає ефекту вибілювання на шкірі. Формула крему збагачена заспокійливим екстрактом центелли азіатською та зволожуючою гіалуроновою кислотою.</p>
+                                <h1 class="price fw-semibold">760.00 грн</h1>
+                                <button type="button" class="btn-buy-now">Купити зараз<i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="images/baner/spf3-removebg-preview.png" class="d-block w-100 mt-4 mt-lg-0" alt="Сонцезахисний крем для обличчя">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row panda-bg-info p-5 d-flex align-items-center">
+                            <div class="col-lg-7 ps-5">
+                                <h1 class="fw-bold mb-3">Гідрофільна олійка з пробіотиками Dr. Ceuracle</h1>
+                                <p class="mb-4">Ніжний очищуючий засіб Dr. Ceuracle Pro Balance Pure Deep Cleansing Oil на основі рослинних олій, що швидко розчиняє водостійку косметику, видаляє сонцезахисні засоби, надлишок шкірного себуму, пил та інші забруднення, не порушуючи при цьому захисний бар’єр шкіри.
+
+                                    При додаванні води перетворюється в нежирне молочко, яке легко та без залишку змивається. Після вмивання шкіра залишається ідеально чистою, приємно зволоженою та збалансованою.</p>
+                                <h1 class="price fw-semibold">990.00 грн</h1>
+                                <button type="button" class="btn-buy-now">Купити зараз<i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                            <div class="col-lg-4">
+                                <img src="images/baner/face2-removebg-preview.png" class="d-block w-100" alt="xbox">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Start Main -->
+    <main>
+        <!-- Categories -->
+        <div class="container my-5">
+            <h2 class="fw-semibold mb-3">Категорії</h2>
+            <div class="row g-4">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div
+                        class="p-3 border bg-primary text-light d-flex align-items-center justify-content-around rounded-3 watch">
+                        <h2 class="fw-semibold">Очищення для обличчя</h2>
+                        <img class="w-25" src="images/Categories/face1-removebg-preview.png" alt="Очищуючий засіб для обличчя">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div
+                        class="p-3 border bg-success text-light d-flex align-items-center justify-content-around rounded-3 bag">
+                        <h2 class="fw-semibold">Тоніки для обличчя</h2>
+                        <img class="w-25" src="images/Categories/toner1-removebg-preview.png" alt="Тонер для обличчя">
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div
+                        class="p-3 border bg-warning text-light d-flex align-items-center justify-content-around rounded-3 shoes">
+                        <h2 class="fw-semibold">Сонцезахисні крема для обличчя</h2>
+                        <img class="w-25" src="images/Categories/spf1-removebg-preview.png" alt="Сонцезахисний крем для обличчя">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Category Shoes -->
+        <section class="all-categories">
+            <section id="shoes" class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="fw-semibold mb-3">Сонцезахисні крема для обличчя</h2>
+                    <h5 class="fw-semibold text-warning">Більше</h5>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/spf/spf1.jpg" class="card-img-top" alt="сонцезахисний крем з пробіотиком">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">Beauty of Joseon </h5>
+                                <p class="card-text mt-4">Beauty of Joseon - Сонцезахисний крем із пробіотиками - сонцезахисний крем захищає шкіру обличчя від шкідливих UVA та UVB променів. Він містить до 30% екстракту рису, який має антиоксидантну дію і нейтралізує вільні радикали.Хімічні фільтри ефективно обмежують потрапляння сонячних променів на поверхню шкіри та у глибші шари.</p>
+                                <h5 class="price fw-semibold">680.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити<i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/spf/spf2.jpg" class="card-img-top" alt="Сонцезахисний стік для обличчя">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">TOCOBO</h5>
+                                <p class="card-text mt-4">TOCOBO - Cotton Soft Sun Stick SPF50+ PA++++ - стик для захисту шкіри від шкідливих UVA і UVB променів. Він містить змішані фільтри, які ефективно захищають шкіру, та численні рослинні екстракти, зокрема алое та шоломника байкальського. Ці компоненти мають заспокійливі, зволожуючі та антиоксидантні властивості.</p>
+                                <h5 class="price fw-semibold">520.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити<i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/spf/spf3.jpg" class="card-img-top" alt="...">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">SKIN1004</h5>
+                                <p class="card-text mt-4">SKIN1004 - Madagascar Centella Hyalu-Cica SPF50+ PA++++ - це легкий сонцезахисний крем, розроблений для щоденного використання. Містить хімічні фільтри для захисту від ультрафіолетових променів і не залишає ефекту вибілювання на шкірі. Формула крему збагачена заспокійливим екстрактом центелли азіатською та зволожуючою гіалуроновою кислотою.</p>
+                                <h5 class="price fw-semibold">760.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити<i
+                                        class="fa-solid fa-arrow-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Category Backpack -->
+            <section id="backpack" class="container">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="fw-semibold mb-3">Тонери для обличчя</h2>
+                    <h5 class="fw-semibold text-warning">Більше</h5>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/Toner/toner1.jpg" class="card-img-top" alt="Зволожуючий тонер з центелою">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">Skin1004</h5>
+                                <p class="card-text mt-4">TФормула на основі гіалуронової кислоти та центели азіаткою (Hyaluronic acid + Cica(Centella Asiatica), екстракту Camellia Sinensis (зеленого чаю), керамідів Ceramide Biom
+
+                                    Засіб є зволожуючим містом, до складу якого входить 40% концентрованого екстракту Camellia Sinensis (зеленого чаю).</p>
+                                <h5 class="price fw-semibold">600.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити >></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/Toner/toner2.jpg" class="card-img-top" alt="Зволожуючий тонер">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">SKIN1004</h5>
+                                <p class="card-text mt-4">Гіалуроновий тонік із центеллою - зволожуючий тонік для догляду за шкірою обличчя. Він відновлює та повертає шкірі здорове сяйво. Містить ніацинамід, який вирівнює колір шкіри та зменшує почервоніння, та гідролат центели азіатської 74%. Кислоти покращують еластичність шкіри.</p>
+                                <h5 class="price fw-semibold">840.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити >></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card border-0 rounded-3 h-100">
+                            <img src="images/Toner/toner3.jpg" class="card-img-top" alt="Зволожуюсий тонер з комбучею">
+                            <div class="card-body text-center">
+                                <h5 class="card-title fw-semibold">Dr.Ceuracle</h5>
+                                <p class="card-text mt-4">Веганська багатофункціональна кремова есенція з екстрактом комбучі і чорного чаю корейського бренда Dr.Ceuracle стане для вас справжньою знахідкою завдяки її високій якості, ефективності та формулі на основі компонентів природного походження. Косметичний продукт містить гіалуронову кислоту, яка глибоко зволожує. </p>
+                                <h5 class="price fw-semibold">1400.00 грн</h5>
+                            </div>
+                            <div class="mb-4 mx-auto">
+                                <button type="button" class="btn-buy-now">Купити >></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Subscribe Section -->
+        <section id="subscribe" style="height: 450px;"
+            class="container my-5 panda-bg-info rounded-3 d-flex justify-content-center align-items-center">
+            <div class="text-center">
+                <h3 class="fw-bold">Підписуйся на нас!</h3>
+                <h6 class="text-secondary">Надішли свою адресу для подальшої розсилки</h6>
+                <div class="input-group mt-4 mb-3">
+                    <input type="text" class="form-control fs-5 ps-4 pe-5 py-2" placeholder="Enter your email"
+                        aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <button class="btn-buy-now mt-0 px-5 text-capitalize" type="button" id="button-addon2">Надіслати</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- End Main -->
+
+    <!-- Start Footer -->
+    <footer class="mb-0 pb-0 mt-3 text-center">
+        <small>©2023. Borgamotova Maria 36 M. </small>
+    </footer>
+    <!-- End Footer -->
+
+
+    <!-- Bootstrap Script -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
